@@ -26,6 +26,12 @@ nav ul {
     gap: 8px;
 }
 
+.logo {
+    justify-content: flex-start;
+    font-size: 2.4rem;
+    color: #F9FAF8;
+}
+
 .feature-info {
     display: flex;
     width: 70%;
@@ -38,5 +44,44 @@ nav ul {
 }
 
 #hero-sec {
+    font-size: 1.8rem;
+}
+
+.info {
+    text-align: center;
+}
+
+#info-header {
+    font-size: 3.6rem;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.inspo {
+    background: #E5E7EB;
+    font-size: 3.6rem;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 50px 100px 50px 100px;
+}
+
+.inspo#inspo-text {
+    padding-bottom: 20px;
+}
+.inspo span {
+    position: relative;
+    left: 70%;
     font-size: 1.8rem;
 }
